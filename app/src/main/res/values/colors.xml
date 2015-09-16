@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="dedede">#DEDEDE</color>
+    <color name="ferrari_grey">#ECECEC</color>
+    <color name="e6e6e6">#e6e6e6</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="black">#000000</color>
+    <color name="rango_light_blue">#ff64c2f4</color>
+    <color name="rango_blue">#ff1ca8f4</color>
+    <color name="thin_and_meaningless">#BF4B4B</color>
+    <color name="sweet_salvation">#FF8585</color>
+    <color name="sounds_a_bit_untrue">#0C072B</color>
+    <color name="dare_to_dream">#1375BF</color>
+    <color name="nitrous">#1C8A69</color>
+    <color name="indigo500">#3F51B5</color>
+    <color name="indigo50">#E8EAF6</color>
+    <color name="indigo100">#C5CAE9</color>
+</resources>

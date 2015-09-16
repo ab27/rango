@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rango</string>
+    <string name="news_feed">List</string>
+    <string name="post">Post</string>
+    <string name="profile">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_description_take_picture">Take picture</string>
+    <string name="toast_error_camera_preview">Can\'t initialize camera preview.</string>
+    <string name="toast_error_save_picture">Can\'t save picture on external storage.</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+
+    <!--actionBarTabBarStyle-->
+    <!--Defines a style resource for the thin bar that appears
+        below the navigation tabs.-->
+
+    <!--The default for this style for this is Widget.AppCompat.ActionBar.TabBar,
+        which is what you should use as the parent style.-->
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/ActionBar.Solid.Rango</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Example</item>
+    </style>
+
+    <style name="ActionBar.Solid.Rango" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!--<item name="background">@color/thin_and_meaningless</item>-->
+        <item name="background">@color/indigo500</item>
+        <item name="backgroundStacked">@color/indigo500</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Example" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_example</item>
+    </style>
+
+
+
+
+    <declare-styleable name="IndicatorView">
+        <attr name="indicator_default_sel" format="integer" />
+        <attr name="indicator_counter" format="integer" />
+        <attr name="indicator_padding" format="dimension" />
+        <attr name="indicator_size" format="dimension" />
+        <attr name="indicator_img_focused" format="reference" />
+        <attr name="indicator_img_normal" format="reference" />
+    </declare-styleable>
+</resources>
